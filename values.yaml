@@ -19,6 +19,10 @@ dfn-cert-data:
       cpu: 100m
       memory: 128Mi
 
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
 serviceAccount:
   # Specifies whether a service account should be created
   create: true
